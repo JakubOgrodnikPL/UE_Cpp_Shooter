@@ -2,6 +2,8 @@
 
 
 #include "ShooterCharacter.h"
+#include "InputMappingContext.h"
+#include "EnhancedInputSubsystems.h"
 
 // Sets default values
 AShooterCharacter::AShooterCharacter()
@@ -26,9 +28,15 @@ void AShooterCharacter::Tick(float DeltaTime)
 }
 
 // Called to bind functionality to input
-void AShooterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+void AShooterCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
+    // Get the player controller
+    APlayerController* PC = Cast<APlayerController>(GetController());
+ 
+    // Get the local player subsystem
+    UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(PC->GetLocalPlayer());
+    // Clear out existing mapping, and add our mapping
+    Subsystem->ClearAllMappings();
+    Subsystem->AddMappingContext(InputMapping, 0);
 }
 

@@ -6,10 +6,15 @@
 #include "GameFramework/Character.h"
 #include "ShooterCharacter.generated.h"
 
+
 UCLASS()
 class CPPSHOOTER_API AShooterCharacter : public ACharacter
 {
 	GENERATED_BODY()
+
+protected:
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Enhanced Input")
+    class UInputMappingContext* InputMapping;
 
 public:
 	// Sets default values for this character's properties
@@ -25,5 +30,11 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	private:
+
+	void MoveForward(float AxisValue);
+	void LookUp(float AxisValue);
+
 
 };
