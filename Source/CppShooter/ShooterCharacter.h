@@ -4,7 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "InputActionValue.h"
 #include "ShooterCharacter.generated.h"
+
 
 
 UCLASS()
@@ -32,5 +34,14 @@ public:
 	protected:
     UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Enhanced Input")
     class UInputMappingContext* InputMapping;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Enhanced Input")
+	class UMyInputConfigData* InputActions;
+
+	// Handle move input
+	void Move(const FInputActionValue& Value);
+ 
+	// Handle look input
+	void Look(const FInputActionValue& Value);
 
 };
