@@ -47,6 +47,7 @@ void AShooterCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerI
     // Bind the actions
     PEI->BindAction(InputActions->InputMove, ETriggerEvent::Triggered, this, &AShooterCharacter::Move);
     PEI->BindAction(InputActions->InputLook, ETriggerEvent::Triggered, this, &AShooterCharacter::Look);
+    PEI->BindAction(InputActions->InputJump, ETriggerEvent::Triggered, this, &ACharacter::Jump);
 
 }
 
