@@ -1,0 +1,74 @@
+[
+	{
+		"file": "C:\\Users\\jakub\\Documents\\Unreal Projects\\CppShooter\\Source\\CppShooter\\CppShooter.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\jakub\\Documents\\Unreal Projects\\CppShooter\\.vscode\\compileCommands_Default\\CppShooter.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jakub\\Documents\\Unreal Projects\\CppShooter\\Source\\CppShooter\\CppShooter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\jakub\\Documents\\Unreal Projects\\CppShooter\\.vscode\\compileCommands_Default\\CppShooter.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jakub\\Documents\\Unreal Projects\\CppShooter\\Source\\CppShooter\\CppShooter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\jakub\\Documents\\Unreal Projects\\CppShooter\\.vscode\\compileCommands_Default\\CppShooter.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jakub\\Documents\\Unreal Projects\\CppShooter\\Source\\CppShooter\\CppShooterGameModeBase.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\jakub\\Documents\\Unreal Projects\\CppShooter\\.vscode\\compileCommands_Default\\CppShooter.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jakub\\Documents\\Unreal Projects\\CppShooter\\Source\\CppShooter\\CppShooterGameModeBase.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\jakub\\Documents\\Unreal Projects\\CppShooter\\.vscode\\compileCommands_Default\\CppShooter.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jakub\\Documents\\Unreal Projects\\CppShooter\\Source\\CppShooter\\MyPawn.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\jakub\\Documents\\Unreal Projects\\CppShooter\\.vscode\\compileCommands_Default\\CppShooter.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jakub\\Documents\\Unreal Projects\\CppShooter\\Source\\CppShooter\\MyPawn.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\jakub\\Documents\\Unreal Projects\\CppShooter\\.vscode\\compileCommands_Default\\CppShooter.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jakub\\Documents\\Unreal Projects\\CppShooter\\Source\\CppShooter\\ShooterCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\jakub\\Documents\\Unreal Projects\\CppShooter\\.vscode\\compileCommands_Default\\CppShooter.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jakub\\Documents\\Unreal Projects\\CppShooter\\Source\\CppShooter\\ShooterCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\jakub\\Documents\\Unreal Projects\\CppShooter\\.vscode\\compileCommands_Default\\CppShooter.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	}
+]
