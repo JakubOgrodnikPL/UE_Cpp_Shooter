@@ -7,7 +7,7 @@
 #include "InputActionValue.h"
 #include "ShooterCharacter.generated.h"
 
-
+class AGun;
 
 UCLASS()
 class CPPSHOOTER_API AShooterCharacter : public ACharacter
@@ -43,5 +43,14 @@ public:
  
 	// Handle look input
 	void Look(const FInputActionValue& Value);
+
+	private:
+
+	UPROPERTY(EditDefaultsOnly)
+	TSubclassOf<AGun> GunClass;
+
+	UPROPERTY()
+	AGun* Gun;
+
 
 };
