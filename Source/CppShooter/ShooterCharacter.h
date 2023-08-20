@@ -44,6 +44,9 @@ public:
 	// Handle look input
 	void Look(const FInputActionValue& Value);
 
+	// Handle shoot input
+	//void Shoot(const FInputActionValue& Value);
+
 	private:
 
 	UPROPERTY(EditDefaultsOnly)
@@ -51,6 +54,8 @@ public:
 
 	UPROPERTY()
 	AGun* Gun;
+
+	void Shoot();
 
 
 };

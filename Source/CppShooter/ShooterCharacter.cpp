@@ -54,6 +54,7 @@ void AShooterCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerI
     PEI->BindAction(InputActions->InputMove, ETriggerEvent::Triggered, this, &AShooterCharacter::Move);
     PEI->BindAction(InputActions->InputLook, ETriggerEvent::Triggered, this, &AShooterCharacter::Look);
     PEI->BindAction(InputActions->InputJump, ETriggerEvent::Triggered, this, &ACharacter::Jump);
+    PEI->BindAction(InputActions->InputShoot, ETriggerEvent::Triggered, this, &AShooterCharacter::Shoot);
 
 }
 
@@ -102,3 +103,7 @@ void AShooterCharacter::Look(const FInputActionValue& Value)
     }
 }
 
+void AShooterCharacter::Shoot()
+{
+    Gun->PullTrigger();
+}
