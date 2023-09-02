@@ -37,6 +37,8 @@ public:
 
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
 
+	void Shoot();
+
 	protected:
     UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Enhanced Input")
     class UInputMappingContext* InputMapping;
@@ -70,7 +72,7 @@ public:
 	UPROPERTY()
 	AGun* Gun;
 
-	void Shoot();
+	
 
 
 };
