@@ -13,5 +13,8 @@ UCLASS()
 class CPPSHOOTER_API ACppShooterGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
+
+public:
+	virtual void PawnKilled(APawn* PawnKilled);
 	
 };
