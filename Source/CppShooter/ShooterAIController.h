@@ -16,6 +16,7 @@ class CPPSHOOTER_API AShooterAIController : public AAIController
 
 public:
 	virtual void Tick(float DeltaSeconds) override;
+	bool ISDead() const;
 
 protected:
 	virtual void BeginPlay() override;
