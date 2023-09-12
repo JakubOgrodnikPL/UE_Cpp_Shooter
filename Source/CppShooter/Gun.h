@@ -54,6 +54,8 @@ private:
 
 	AController* GetOwnerController() const;
 
+	UUserWidget *HUD;
+
 
 };
 
